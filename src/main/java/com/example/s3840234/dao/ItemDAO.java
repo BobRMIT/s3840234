@@ -1,7 +1,8 @@
-package com.sept.bobqian.dao;
+package com.example.s3840234.dao;
 
-import com.sept.bobqian.model.Item;
-import com.sept.bobqian.model.Items;
+
+import com.example.s3840234.model.Item;
+import com.example.s3840234.model.Items;
 import org.springframework.stereotype.Repository;
 
 @Repository
