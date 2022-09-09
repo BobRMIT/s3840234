@@ -18,12 +18,33 @@ public class ItemDAO {
         list.getItemList().add(new Item(5, "Chocolate Frog", "Food",6.20));
     }
 
+    public Item getItem(int id){
+
+        return list.getItemList().get(id);
+    }
+
+    public boolean deleteItem(int id){
+        try{
+            list.getItemList().remove(id);
+
+            return true;
+        }catch(IndexOutOfBoundsException e){
+            return false;
+        }
+
+
+    }
+
+    public Item update(int id, Item item){
+        return null;
+    }
+
     public Items getAllItems()
     {
         return list;
     }
 
-    public void addTeacher(Item item) {
+    public void addItems(Item item) {
         list.getItemList().add(item);
     }
 }
