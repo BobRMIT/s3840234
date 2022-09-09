@@ -1,4 +1,4 @@
-package com.sept.bobqian.model;
+package com.example.s3840234.model;
 
 import java.util.ArrayList;
 import java.util.List;
